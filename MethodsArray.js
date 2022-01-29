@@ -206,7 +206,7 @@ console.log(res_find_index); // вернул нам индекс 4
 // find - возвращает нам элемент который мы ищем, который подходит под условие, либо же возвращает нам undefined если не нашел.
 my_array = [{id: 5, name: "Judith"}, {id: 7, name: "Francis"}];
 
-const res_find = my_array.find(o => o.id === 12);
+const res_find = my_array.find(o => o.id === 5);
 const res_find_undefined = my_array.find(o => o.id === 12);
 
 console.log(res_find); // { id: 5, name: 'Judith' }
